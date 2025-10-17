@@ -12,3 +12,7 @@ Pause & game over: host Esc pauses and shares state so client sees overlay. On v
 Networking: UDP port 41000 on local subnet, broadcasts when searching for hosts. Connection timeout (~4 s) drops back to error screen if packets stop.
 Controls summary: ; up / . down everywhere, Enter to confirm, Q (or Fn+Q in some menus) backs out, Fn+Tab toggles password mask, R rescans Wi-Fi, Space serves/rematches, Esc pause (host during play).
 Build/flash: pio run --environment m5stack-cardputer then pio run --target upload. Ensure both devices flashed with same firmware before hosting/joining.
+
+
+Bugs >>
+-Esc doesn't pause the game.
